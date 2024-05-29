@@ -1,8 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap'); 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-h1 {
-  color: red;
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: center no-repeat url(public/pixelcut-export.png);
+    background-size: cover;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Iceberg", sans-serif;
+}
+
+
+body, form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100dvh; */
+    flex-direction: column;
+}
+
+
+form {
+    height: 680px;
+    width: 506px;
+    background-color: rgb(154, 7, 167, 0.35);
+    border-radius: 75px;
+}
+
+
+.user-password {
+    font-family: "Iceberg", sans-serif;
+    width: 462px;
+    height: 92px;
+    opacity: 35%;
+    padding-left: 15px;
+    font-size: 32px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+
+label {
+    color: white;
+    opacity: 75%;
+}
+
+
+.check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+button {
+    font-family: "Iceberg", sans-serif;
+    border-radius: 50px;
+    background-color: #9A169C;
+    color: white;
+    font-size: 54px;
+    margin-top: 20px;
+    width: 278px;
+    height: 88px;
+    border: none;
+    border-bottom: 8px #8A0F8C solid;
+    border-right: 8px #8A0F8C solid;
+}
+@media screen and (max-width: 834px) {
+    form {
+    height: 574px;
+    width: 356px;
+    background-color: rgb(154, 7, 167, 0.35);
+    border-radius: 75px;
+    }
+    .user-password {
+        width: 325px;
+        height: 74px;
+        position: relative; bottom: 50px;    
+    }
+    button {
+        color: white;
+        font-size: 32px;
+        margin-top: 20px;
+        width: 195px;
+        height: 71px;
+        position: relative; top: 40px; left: 10px;
+    }  
+    .avatar {
+        height: 97px;
+        width: 105px;
+        position:  relative; bottom: 60px;
+    }
+    label {
+        position: relative; bottom: 20px;
+    }
+    input[type="checkbox"]{
+        position: relative; bottom: 20px;
+    }
 }
