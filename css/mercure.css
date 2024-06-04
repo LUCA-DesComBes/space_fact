@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: center no-repeat url(../public/interieur_mercure.png);
+    background-size: cover;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Iceberg", sans-serif;
+    color: #1868DF;
+    /* -webkit-text-stroke: #FFF 0.1px; */
+    text-shadow: 3px 3px 0 #FFF, -3px -3px 0 #FFF, 3px -3px 0 #FFF, -3px 3px 0 #FFF; /* Bordure blanche en ombre */
+    padding: 0px 74px 0px 75px;
+}
+p {
+    font-size: 48px;
+}
+a {
+    position: relative;
+    text-decoration: none;
+    color: #1868DF;
+    font-size: 128px;
+    margin-right: 1300px;
+}
+a::after {
+    content: '';
+    transform-origin: 0 0;
+    transform: scaleX(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .1em;
+    background: #1868DF;
+    transition: transform .3s;
+  }
+  
+  a:hover::after {
+    transform: scaleX(1);
+  }
+a:active,
+a:focus  {
+    text-decoration: none;
+    color: #1868DF;
+}
+h2 {
+    font-size: 56px;
+    margin-right: 1130px;
+}

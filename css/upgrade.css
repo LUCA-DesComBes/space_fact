@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Iceberg', sans-serif;
+    background-image: url(../public/nebuleuse.jpeg);
+}
+
+
+.logo-space {
+    width: 114px;
+    height: 108px;
+    border-radius: 50px;
+    position: absolute;
+    top: 30px;
+    margin-right: 1350px;
+}
+
+
+.form-pay {
+    display: flex; 
+    flex-direction: row;
+}
+
+
+.professional {
+    display: flex;
+    flex-direction: column;
+    width: 506px;
+    height: 435px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-right: 16px solid black;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+
+.pay {
+    padding: 50px 0px 70px 0px;
+}
+
+
+.upgrade {
+    background-color: #B961FF;
+    opacity: 75%;
+    width: 301px;
+    height: 84px;
+    border: none;
+    border-radius: 25px;
+    font-size: 32px;
+}
+
+
+.apprentice {
+    display: flex;
+    flex-direction: column;
+    width: 506px;
+    height: 435px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-left: 16px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

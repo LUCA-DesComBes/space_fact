@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: center no-repeat url(../public/nebuleuse.jpeg);
+    background-size: cover;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Iceberg", sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    top: 54px;
+    text-align: center;
+    width: 600px;
+    color: #1868DF;
+    text-shadow: 2px 2px 0 #FFF, -2px -2px 0 #FFF, 2px -2px 0 #FFF, -2px 2px 0 #FFF; /* Bordure blanche en ombre */
+}
+section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 380px;
+    margin-right: 200px;
+    gap: 50px;
+}
+.soleil {
+    height: 380px;
+    width: 385px;
+}
+.mercure {
+    margin-top: 100px;
+    height: 190px;
+    width: 195px;
+}
+
+.soleil:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.mercure:hover {
+    -webkit-transform: scale(1.12);
+    transform: scale(1.2);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+.venus {
+    margin-top: 80px;
+    height: 220px;
+    width: 225px;
+}
+.venus:hover {  
+    -webkit-transform: scale(1.12);
+    transform: scale(1.2);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}.terre {
+    margin-top: 50px;
+    height: 280px;
+    width: 225px;
+}
+.terre:hover {  
+    -webkit-transform: scale(1.12);
+    transform: scale(1.2);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}

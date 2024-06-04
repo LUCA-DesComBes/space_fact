@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -6,10 +8,20 @@
 }
 
 
+.logo-space {
+    width: 114px;
+    height: 108px;
+    border-radius: 50px;
+    position: absolute;
+    top: 30px;
+    margin-right: 1200px;
+}
+
+
 body {
     height: 100vh;
     width: 100vw;
-    background: center no-repeat url(public/pixelcut-export.png);
+    background: center no-repeat url(public/comete.png);
     background-size: cover;
     font-size: 32px;
     font-weight: 700;
@@ -50,19 +62,18 @@ form {
 
 label {
     color: white;
-    opacity: 75%;
+    opacity: 35%;
 }
 
 
 .check {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 1rem;
 }
 
 
-button {
+button{
     font-family: "Iceberg", sans-serif;
     border-radius: 50px;
     background-color: #9A169C;
@@ -72,9 +83,19 @@ button {
     width: 278px;
     height: 88px;
     border: none;
-    border-bottom: 8px #8A0F8C solid;
-    border-right: 8px #8A0F8C solid;
+    border-bottom: #8A0F8C 8px solid;
+    border-right: #8A0F8C 8px solid;
 }
+
+
+a,
+a:active,
+a:focus  {
+    text-decoration: none;
+    color: white;
+}
+
+
 @media screen and (max-width: 834px) {
     form {
     height: 574px;
