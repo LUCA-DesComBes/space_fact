@@ -40,6 +40,8 @@ body {
     text-align: center;
     background-color: #fff;
     border-right: 16px solid black;
+    border-left: #e7e3e3 solid 12px;
+    border-bottom: #e7e3e3 solid 12px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -76,6 +78,8 @@ h1 {
     text-align: center;
     background-color: #fff;
     border-left: 16px solid black;
+    border-right: #e7e3e3 solid 12px;
+    border-bottom: #e7e3e3 solid 12px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }

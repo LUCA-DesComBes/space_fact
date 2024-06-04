@@ -26,3 +26,17 @@ terre.addEventListener("mouseover", ()=>{
 terre.addEventListener("mouseout", ()=>{
     terre.src = "../public/Terre.png"
 })
+const lune = document.querySelector('.lune');
+lune.addEventListener("mouseover", ()=>{
+    lune.src = "../public/interieur-lune.png"
+})
+lune.addEventListener("mouseout", ()=>{
+    lune.src = "../public/Lune.png"
+})
+const mars = document.querySelector('.mars');
+mars.addEventListener("mouseover", ()=>{
+    mars.src = "../public/interieur-mars.png"
+})
+mars.addEventListener("mouseout", ()=>{
+    mars.src = "../public/Mars.png"
+})

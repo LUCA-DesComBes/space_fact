@@ -55,11 +55,9 @@ form {
     padding-left: 15px;
     font-size: 32px;
     border-radius: 15px;
-    border: none;
+    border: solid;
     margin-bottom: 30px;
 }
-
-
 label {
     color: white;
     opacity: 35%;

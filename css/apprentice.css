@@ -30,8 +30,7 @@ section {
     display: flex;
     flex-direction: row;
     margin-top: 380px;
-    margin-right: 200px;
-    gap: 50px;
+    margin-right: 450px;
 }
 .soleil {
     height: 380px;
@@ -51,7 +50,7 @@ section {
 }
 
 .mercure:hover {
-    -webkit-transform: scale(1.12);
+    -webkit-transform: scale(1.2);
     transform: scale(1.2);
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
@@ -62,17 +61,48 @@ section {
     width: 225px;
 }
 .venus:hover {  
-    -webkit-transform: scale(1.12);
+    -webkit-transform: scale(1.2);
     transform: scale(1.2);
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
 }.terre {
-    margin-top: 50px;
-    height: 280px;
-    width: 225px;
+    margin-top: 10px;
+    height: 370px;
+    width: 305px;
 }
 .terre:hover {  
-    -webkit-transform: scale(1.12);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+.lune{
+    position: absolute;
+    right: 350px;
+    margin-top: 10px;
+    height: 140px;
+    width: 205px;
+}
+.lune:active,
+.lune:focus{
+    position: absolute;
+    right: 350px;
+    margin-top: 10px;
+}
+.lune:hover {  
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+.mars {
+    position: absolute; right: 80px;
+    margin-top: 60px;
+    height: 240px;
+    width: 245px;
+}
+.mars:hover {  
+    -webkit-transform: scale(1.2);
     transform: scale(1.2);
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
