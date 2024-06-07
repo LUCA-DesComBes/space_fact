@@ -35,86 +35,60 @@ section {
     flex-direction: row;
     margin-top: 380px;
     margin-right: 450px;
+    gap: 10px;
 }
-.soleil {
-    height: 380px;
-    width: 385px;
+.jupiter {
+    margin-top: 60px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
 }
-.mercure {
+.saturne {
     margin-top: 100px;
-    height: 190px;
-    width: 195px;
+    height: 228px;
+    width: 450px;
 }
 
-.soleil:hover {
+.jupiter:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     -webkit-transition: .5s ease-in;
     transition: .5s ease-in;
 }
 
-.mercure:hover {
+.saturne:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-    -webkit-transition: .5s ease-in;
-    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
 }
-.venus {
+.uranus {
     margin-top: 80px;
-    height: 220px;
-    width: 225px;
+    height: 250px;
+    width: 250px;
 }
-.venus:hover {  
+.uranus:hover {  
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-    -webkit-transition: .5s ease-in;
-    transition: .5s ease-in;
-}.terre {
-    margin-top: 10px;
-    height: 370px;
-    width: 305px;
-}
-.terre:hover {  
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    -webkit-transition: .5s ease-in;
-    transition: .5s ease-in;
-}
-.lune{
-    position: absolute;
-    right: 350px;
-    margin-top: 10px;
-    height: 140px;
-    width: 205px;
-}
-.lune:active,
-.lune:focus{
-    position: absolute;
-    right: 350px;
-    margin-top: 10px;
-}
-.lune:hover {  
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
-    -webkit-transition: .5s ease-in;
-    transition: .5s ease-in;
-}
-.mars {
-    position: absolute; right: 80px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}.neptune {
+    position: absolute; right: 26px;
     margin-top: 60px;
-    height: 240px;
-    width: 245px;
+    height: 275px;
+    width: 275px;
 }
-.mars:hover {  
+.neptune:hover {  
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-    -webkit-transition: .5s ease-in;
-    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
 }
 p {
     position: absolute;
     top: 250px;
-    right: 45px;
+    right: 1425px;
     color: #1868DF;
     font-size: 128px;
 }
@@ -122,7 +96,7 @@ p:active,
 p:focus{
     position: absolute;
     top: 250px;
-    right: 45px;
+    right: 1425px;
     color: #1868DF;
     font-size: 128px;
 }
